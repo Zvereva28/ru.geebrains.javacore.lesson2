@@ -53,8 +53,8 @@ public class Main {
 
 
             }catch (MyArrayDataException e){
-                System.out.println("Эллемент массива с номером [" + e.i +"]" + "[" + e.j + "]" + " не верного формата");}
-            catch (MyArraySizeExсeption ex) {
+                System.out.println("Элемент массива с номером [" + e.i +"]" + "[" + e.j + "]" + " не верного формата");}
+            catch (MyArraySizeException ex) {
                 System.out.println(ex.getMessage());
             }
 
@@ -65,8 +65,8 @@ public class Main {
             h2.ChangeArrays(arr2);
 
             }catch (MyArrayDataException e){
-                System.out.println("Эллемент массива с номером [" + e.i +"]" + "[" + e.j + "]" + " не верного формата");}
-        catch (MyArraySizeExсeption ex) {
+                System.out.println("Элемент массива с номером [" + e.i +"]" + "[" + e.j + "]" + " не верного формата");}
+        catch (MyArraySizeException ex) {
             System.out.println(ex.getMessage());
         }
 
@@ -77,8 +77,8 @@ public class Main {
 
 
         }catch (MyArrayDataException e){
-            System.out.println("Эллемент массива с номером [" + e.i +"]" + "[" + e.j + "]" + " не верного формата");}
-        catch (MyArraySizeExсeption ex) {
+            System.out.println("Элемент массива с номером [" + e.i +"]" + "[" + e.j + "]" + " не верного формата");}
+        catch (MyArraySizeException ex) {
             System.out.println(ex.getMessage());
         }
 
